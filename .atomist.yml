@@ -63,3 +63,15 @@ editor:
   parameters:
     - "desiredVersion": "0.1.2"
 
+---
+kind: "operation"
+client: "com.atomist:rug"
+version: "1.0.0-20170518094744"
+editor:
+  name: "SetArtifactVersionEditor"
+  group: "atomist"
+  artifact: "spring-team-handlers"
+  version: "0.1.125"
+  parameters:
+    - "desiredVersion": "0.1.3"
+
