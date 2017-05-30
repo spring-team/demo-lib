@@ -1,0 +1,22 @@
+---
+kind: "operation"
+client: "com.atomist:rug"
+version: "1.0.0-20170518094744"
+generator:
+  name: "JavaLibSeed"
+  group: "atomist"
+  artifact: "spring-team-handlers"
+  version: "0.1.117"
+  origin:
+    repo: "https://www.github.com/atomisthq/spring-team-handlers"
+    branch: "master"
+    sha: "b1b35af"
+  parameters:
+    - "org": "spring-team"
+    - "repo": "java-lib-seed"
+    - "branch": "master"
+    - "artifactId": "demo-lib"
+    - "groupId": "com.atomist"
+    - "version": "0.1.0"
+    - "rootPackage": "com.atomist"
+
